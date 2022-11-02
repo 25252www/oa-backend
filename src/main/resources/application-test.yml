@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://124.70.79.26:26000/gsdb?currentSchema=gsdb
+    schemaName: gsdb
+    username: root
+    password: root@123456
+    driver-class-name: org.postgresql.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
